@@ -14,4 +14,3 @@ arr_3d = arr.reshape(2,2,3)
 # Enumerate in 2D array
 # for idx, x in np.ndenumerate(arr_2d):
 #     print(idx, x)
-
