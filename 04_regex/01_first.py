@@ -24,4 +24,15 @@ s = "abc123"
 # print(re.search("[^aeiou]", "oiasgl;kan;o2h3klnasl;dgnka;hsg")) # search for the first character that is not a lower vovel
 
 # 4. $ => If ends with 
-print(re.search("\.pdf$", "index.pdf"))
+# print(re.search("\.pdf$", "index.pdf"))
+
+# print(re.search("ld$", "hello world"))
+
+# print(re.search("\w", "!@#asfg$%")) # Checks if alphanumeric exist
+# print(re.search("\W", "!@#asfg$%")) # Checks if Non-Alphanumeric exist.
+
+# print(re.search("\d", "43214qwer23")) # Checks if decimal digit exist
+# print(re.search("\D", "alsdgh")) # Checks if non-decimal digit exist
+
+print(re.search("\s", "gaskjgh jklhasgjkd asgkj h"))
+print(re.search("\S", "gaskjgh jklhasgjkd asgkj h"))
