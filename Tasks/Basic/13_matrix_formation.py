@@ -21,4 +21,5 @@ def str_to_matrix(sentence, rows, cols):
     matrix = [list(sentence[i:i+cols]) for i in range(0, max_len, cols)]
     return matrix
 
-print(str_to_matrix("Today is the best day from the perspective of performance...", 10, 6))
+print(str_to_matrix("This is the random string generated for test purpose", 13, 4))
+print(len("This is the random string generated for test purpose"))

@@ -6,6 +6,7 @@ class A:
         return x
 
     def get_x(self):
+        global x
         return x
 
 a = A()
