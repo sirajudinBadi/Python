@@ -1,11 +1,5 @@
 from itertools import combinations, permutations
 
-"""
-    Take a number from test_list
-    Convert number to string
-    Take the digit out from number and check if it is allowed?
-    If all the digits of a number made from the allowed digit then filter those out.
-"""
 
 test_list = [3456, 23, 128, 235, 982]
 digit_list = [2, 3, 5, 4]
